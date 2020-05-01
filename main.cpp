@@ -3,6 +3,7 @@
 using namespace std;
 
 extern void TestTemplateFunction();
+extern void TestTemplateClass();
 
 int print() {
     cout << "Hello world!" << endl;
@@ -10,6 +11,6 @@ int print() {
 }
 
 int main() {
-    TestTemplateFunction();
+    TestTemplateClass();
     return 0;
 }
