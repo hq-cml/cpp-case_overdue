@@ -4,5 +4,9 @@ cmake_minimum_required (VERSION 3.10)
 # 项目信息
 project (cppcase)
 
+include_directories(template)
+
 # 指定生成目标
-add_executable(Cppcase main.cpp)
+add_executable(Cppcase
+        main.cpp
+        template/template.cpp)
