@@ -10,4 +10,7 @@ include_directories(template)
 add_executable(Cppcase
         main.cpp
         template/template.cpp
-        others/well\ number.cpp)
+        others/well\ number.cpp
+        threads/thread.cpp
+        stl/vector.cpp
+        )

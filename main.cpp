@@ -6,6 +6,8 @@ extern void TestTemplateFunction();
 extern void TestTemplateClass();
 extern void oneWellNumber();
 extern void twoWellNumber();
+extern int TestThreads ();
+extern int TestVector ();
 
 int print() {
     cout << "Hello world!" << endl;
@@ -13,7 +15,6 @@ int print() {
 }
 
 int main() {
-    oneWellNumber();
-    twoWellNumber();
+    TestVector();
     return 0;
 }
