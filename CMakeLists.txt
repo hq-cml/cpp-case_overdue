@@ -13,4 +13,5 @@ add_executable(Cppcase
         others/well\ number.cpp
         threads/joinable.cpp
         threads/threads.cpp
+        threads/cpp11.cpp
         stl/vector.cpp)

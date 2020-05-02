@@ -10,6 +10,7 @@ extern int TestThreads ();
 extern int TestVector ();
 extern int TestJoinable ();
 extern int TestThreads ();
+extern int TestCpp11Threads ();
 
 int print() {
     cout << "Hello world!" << endl;
@@ -17,6 +18,6 @@ int print() {
 }
 
 int main() {
-    TestThreads();
+    TestCpp11Threads();
     return 0;
 }
