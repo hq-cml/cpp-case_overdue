@@ -11,6 +11,5 @@ add_executable(Cppcase
         main.cpp
         template/template.cpp
         others/well\ number.cpp
-        threads/thread.cpp
-        stl/vector.cpp
-        )
+        threads/joinable.cpp
+        stl/vector.cpp)
