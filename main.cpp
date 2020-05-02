@@ -9,6 +9,7 @@ extern void twoWellNumber();
 extern int TestThreads ();
 extern int TestVector ();
 extern int TestJoinable ();
+extern int TestThreads ();
 
 int print() {
     cout << "Hello world!" << endl;
@@ -16,6 +17,6 @@ int print() {
 }
 
 int main() {
-    TestJoinable();
+    TestThreads();
     return 0;
 }
